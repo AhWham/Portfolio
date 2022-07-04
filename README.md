@@ -1,2 +1,3 @@
-# AhWham.github.io
-My Art Portfolio
+# AhWham's Portfolio
+My Art Portfolio and First Website project
+Made with Bootstrap
