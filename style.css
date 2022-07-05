@@ -39,6 +39,10 @@
     background-size: cover;
     position: relative;
 }
+.Intro{
+    background-color: black;
+    padding-bottom: 5%;
+}
 .Home{
     background-color: black;
 }
