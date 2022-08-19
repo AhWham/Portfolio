@@ -69,6 +69,21 @@
     background-image: linear-gradient(black, rgb(112, 23, 112));
 }
 
+/*--- Game Page ---*/
+
+.Games{
+    background-color: black;
+    padding-bottom: 1%;
+}
+.text-center h5{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+}
+.Library{
+    background-image: linear-gradient(black, black);
+}
+
 /*--- Support Page ---*/
 
 .Support{
