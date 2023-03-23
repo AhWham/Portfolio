@@ -1,78 +1,128 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 .img-fluid{
-    width: 45%;
+    width: 60%;
 }
 .img-thumbnail{
-    width: 430px;
+    width: 400px;
+}
+.child{
+    height: 100px;
 }
 .nav-link{
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 23px;
 }
 .text-center h2{
+    font-family: 'Roboto Slab', serif;
     color: white;
     text-decoration: none;
     font-size: 40px;
 }
+.text-center h3{
+    color: rgb(146, 146, 146);
+    text-decoration: none;
+}
+.text-center h4{
+    color: rgb(213, 213, 213);
+    text-decoration: none;
+    font-size: 40px;
+}
 .text-center p{
-    color: grey;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 60, 255);
     text-decoration: none;
     font-size: 20px;
+}
+.clearfix p{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: large;
 }
 .btn-primary{
     background-color: rgb(94, 16, 94);
     color: white;
     font-size: 20px;
     text-decoration: none;
+    height: auto;
 }
-
-/*--- Front Page ---*/
+.card-text-bg-dark{
+    outline: none;
+}
+.card-img-overlay{
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    -webkit-text-stroke-color: black;
+}
 .header{
+    font-family: 'Roboto Slab', serif;
     background-color:black;
     background-position: center;
     background-size: cover;
     position: relative;
 }
-.Intro{
+.Begin{
     background-color: black;
     padding-bottom: 5%;
 }
-.Home{
+.body-background{
+    width: 50%
+}
+.card-img-overlay{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: black;
+    font-size: 50%;
+    text-align: center;
+    
+}
+.btn-btn-primary-btn-lg{
+    color: blueviolet;
+}
+.Pageend{
     background-color: black;
 }
-.A-Home{
-    padding-bottom: 5%;
-    background-color: black;
+.Pageend p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: small;
 }
-.S-Home{
-    padding-bottom: 3%;
-    background-color: black;
-}
-
-/*--- Art Page ---*/
-
 .Art{
-    background-color: black;
+    background-image: linear-gradient(black, rgb(0, 0, 135));
+    padding-bottom: 1%;
+}
+.carousel-item{
+    width: 50%;
+    height: auto;
+    position: center;
+    background: rgb(24, 24, 48);
+
 }
 .text-center h5{
     color: white;
     text-decoration: none;
     font-size: 60px;
 }
+.col-md-6{
+    width: 40%;
+    float: right;
+}
 .Portfolio{
     background-image: linear-gradient(black, rgb(112, 23, 112));
 }
-
-/*--- Game Page ---*/
-
 .Games{
-    background-color: black;
+    background-image: linear-gradient(rgb(0, 0, 135), rgb(119, 137, 0));
     padding-bottom: 1%;
 }
 .text-center h5{
@@ -80,18 +130,20 @@
     text-decoration: none;
     font-size: 60px;
 }
-.Library{
-    background-image: linear-gradient(black, black);
+.clearfix p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
 }
-
-/*--- Support Page ---*/
-
 .Support{
     background-color: black;
 }
-.col-md-4{
+.SupportHeader{
     background-color: black;
-    padding-bottom: 10%;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-gap: 10%;
 }
 .card{
     background-color: white;
@@ -101,4 +153,48 @@
     text-decoration: none;
     font-size: 30px;
     text-align: center;
+}
+.Intro{
+    background-image: linear-gradient(black, rgb(121, 0, 0));
+    padding-bottom: 5%;
+}
+.About{
+    background-image: linear-gradient(rgb(121, 0, 0), rgb(130, 84, 0));
+}
+.text-muted{
+    color: rgb(55, 55, 55);
+}
+.card-img-overlay p{
+    font-size: medium;
+    color: white;
+}
+.NG{
+    background-color: rgb(0, 0, 0);
+}
+.KF{
+    background-color: rgb(0, 0, 0);
+}
+.IN{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(239, 239, 113));
+}
+.Support-Info{
+    background-image: linear-gradient(rgb(239, 239, 113), rgb(174, 112, 53));
+}
+.GameLinks{
+    background-color: rgb(0, 0, 135);
+}
+.Works{
+    background-color: black;
+}
+.AboutMe{
+    background-color: black;
+}
+.banana{
+    background-color: rgb(119, 137, 0);
+}
+.cube{
+    background-color: rgb(119, 137, 0);
+}
+.flyght{
+    background-color: rgb(119, 137, 0);
 }
