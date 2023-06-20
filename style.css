@@ -266,3 +266,121 @@
 .active-dot {
     background-color: white;
 }  
+
+/* Mobile */
+
+@media (max-width: 767px) and (orientation: portrait){
+    .nav-link {
+        font-size: 250%;
+    }
+    .text-center h2{
+        font-size: 85px;
+    }
+    .text-center p{
+        font-size: 40px;
+    }
+    .img-fluid {
+        width: 130%;
+    }
+    .clearfix p{
+        font-size: 250%;
+    }
+    .card-img-overlay p{
+        font-size: 350%;
+    }
+    .Pageend p{
+        font-size: 175%;
+    }
+}
+@media (min-width: 601px) and (orientation: portrait){
+    .nav-link {
+        font-size: 250%;
+    }
+    .text-center h2{
+        font-size: 85px;
+    }
+    .text-center p{
+        font-size: 40px;
+    }
+    .img-fluid {
+        width: 130%;
+    }
+    .clearfix p{
+        font-size: 250%;
+    }
+    .card-img-overlay p{
+        font-size: 350%;
+    }
+    .Pageend p{
+        font-size: 175%;
+    }
+}
+@media (min-width: 768px) and (orientation: portrait){
+    .nav-link {
+        font-size: 300%;
+    }
+    .text-center h2{
+        font-size: 85px;
+    }
+    .text-center p{
+        font-size: 40px;
+    }
+    .img-fluid {
+        width: 130%;
+    }
+    .clearfix p{
+        font-size: 250%;
+    }
+    .card-img-overlay p{
+        font-size: 350%;
+    }
+    .Pageend p{
+        font-size: 175%;
+    }
+}
+@media (min-width: 992px) and (orientation: portrait){
+    .nav-link {
+        font-size: 300%;
+    }
+    .text-center h2{
+        font-size: 85px;
+    }
+    .text-center p{
+        font-size: 40px;
+    }
+    .img-fluid {
+        width: 130%;
+    }
+    .clearfix p{
+        font-size: 250%;
+    }
+    .card-img-overlay p{
+        font-size: 350%;
+    }
+    .Pageend p{
+        font-size: 175%;
+    }
+}
+@media (min-width: 1200px) and (orientation: portrait){
+    .nav-link {
+        font-size: 300%;
+    }
+    .text-center h2{
+        font-size: 85px;
+    }
+    .text-center p{
+        font-size: 40px;
+    }
+    .img-fluid {
+        width: 130%;
+    }
+    .clearfix p{
+        font-size: 250%;
+    }
+    .card-img-overlay p{
+        font-size: 350%;
+    }
+    .Pageend p{
+        font-size: 175%;
+    }
+}
