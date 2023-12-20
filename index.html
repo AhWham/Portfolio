@@ -1,79 +1,70 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <meta name="viewport" content="with=device-width, initial scale=1.0, user-scalable=yes">
-  <title>Home Page</title>
+  <title>AhWham's Portfolio</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Style/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet"> 
-  
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
-<body>
-  <section class="header">
-    <nav>
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link disabled">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="About.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Works.html">Works</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Support.html">Support</a>
-        </li>
-      </ul>
-      <div class="text-center">
-        <img src="Branding/logo_23.png" class="img-fluid" alt="Logo">
-      </div>
-    </nav>
-  </section>
-</body>
-  <!-- Intro -->
-<body>
-  <section class="Begin">
-    <div class="text-center">
-      <h2>Welcome to my Portfolio!</h2>
-      <p>Thank you for checking it out</p>
-  </section>
-  <section class="AboutMe">
-    <div class="card border-0 text-bg-dark">
-      <img src="Branding/about_bg_hp.png" class="card-img" alt="about bg">
-      <div class="card-img-overlay">
-        <a href="About.html"><h1 class="text-center">Learn more about me</h1></a>
-        <p>Read a quick paragraph introducting myself and what I do</p>
-       </div>
-      </div>
+<body class="index">
+  <nav>
+    <ul class="nav-bar">
+      <li class="navH">Home</li>
+      <li class="navSh"><a href="showcase.html">Art</a></li>
+      <li class="navSu"><a href="Games.html">Games</a></li>
+    </ul>
+  </nav>
+  <header class="indexTitle">
+    <img src="Assets/BannerLogo.png" class="bannerlogo" id="A logo that spells out Ah Wham">
+    <h1>Welcome to my Portfolio Site</h1>
+  </header>
+  <main>
+    <Intro>
+      <h2>About Me...</h2>
+      <p class="ab">
+        Hello, I go by AhWham or just Wham for short and I am someone with a lot of hobbies. I am an Artist, Always have been and hopefully always will be, 
+        I've been drawing just about everyday since I was a kid and switched to Digital only in 2021. I am a Coder, I made this portfolio from scratch with HTML, CSS, and Bootstrap 
+        and this is the project to help me get more comfortable in designing Websites
+      </p>
+      <h2>Art</h2>
+      <p class="ab">
+        Art is the one hobby that grow way back for me, but I've had some trouble getting my footing in the past. I used to be very closed off when it came to 
+        learning new techniques and other aspects of drawing than what I doing, which was drawing characters from the shoulders up. Only recently have I started to 
+        practice more with posing, backgrounds, perspectives, shading, etc. With it, I feel a lot more capable when it comes to drawing. While I'm still struggling 
+        with getting everything how I want it, I'm still very proud of the work I've done so far.
+      </p>
+      <h2>Web Design and Programming</h2>
+      <p class="ab">
+        Coding is a very new frontier and some languages are just beyond me at this stage. I started learning code outside of game engines in 2020 and it's 
+        been pretty fun so far. I do need to work on how to use python or java, but with HTML and CSS I feel pretty good about making sites. The whole reason for 
+        me using code to make this site instead of using something like Wix or SquareSpace was so I didn't have to paid to get rid of watermarks. Although this 
+        project was born out of me being cheap and taking the hard way, I do enjoy working on this site and making it better than before. It was also just good to 
+        familize myself to using GitHub to host the cite and Bootstrap to use columns and containers to make it look that much more nicer. The first draft of the 
+        site was a little barebones and I've always thought I needed to redo it, so I'm glad I finally got the motivation to redo thew site into something more 
+        pleasing.
+      </p>
+    <Intro>
+  </main>
+  <footer>
+    <p>&copy; AhWham's Portfolio Site, Made with HTML and CSS</p>
+    <div class="sm-logos">
+      <a href="https://ko-fi.com/ahwham"><img src="Icons/kofi.png"></a>
+      <a href="https://www.instagram.com/ah_wham/"><img src="Icons/insta.svg.png"></a>
+      <a href="https://www.tumblr.com/ahwham"><img src="Icons/tumblr.png"></a>
+      <a href="https://ahwham.itch.io/"><img src="Icons/itch.png"></a>
+      <a href="https://ahwham.newgrounds.com/"><img src="Icons/ng.png"></a>
     </div>
-  </section>
-  <section class="Works">
-    <div class="card border-0 text-bg-dark">
-      <img src="Branding/work_bg_hp.png" class="card-img" alt="work bg">
-      <div class="card-img-overlay">
-        <a href="Works.html"><h1 class="text-center">See my Work</h1></a>
-        <p>See my best Art on Display and Play the Games I have made and Published to Newgrounds</p>
-      </div>
-    </div>
-  </section>
-  <section class="Support">
-    <div class="card border-0 text-bg-dark">
-      <img src="Branding/support_bg_hp.png" class="card-img" alt="support bg">
-      <div class="card-img-overlay">
-        <a href="Support.html"><h1 class="text-center">Follow my socials</h1></a>
-        <p>Click the link to see my social media pages</p>
-      </div>
-    </div>
-  </section>
-  <section class="Pageend">
-    <p><br>Ahwham portfolio made with Visual Studio Code and bootstrap; last updated 06/19/23</p>
-    <br>
-  </section>
+  </footer>
 </body>
 </html>
